@@ -1,0 +1,53 @@
+/* aplication */
+.app {
+    width: 350px;
+    margin: 0 auto;
+    font-family: monospace;
+    /* text-align: center; */
+    align-content: center;
+    border: 1px solid black;
+    /* padding: 15px; */
+}
+
+li {
+    list-style-type: none;
+    max-width: 200px;
+    padding: 10px;
+    margin: 8px auto;
+    background: crimson;
+    border: 1px dotted #ddd;
+
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 10px;
+    width: 160px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+/* JS interaction */
+.hide {
+    display: none;
+}
