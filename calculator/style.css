@@ -1,0 +1,35 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.num {
+    width: 70px;
+    height: 70px;
+
+    font-size: 30px;
+    margin: 2px 2px 2px 0;
+
+    border: none;
+    background-color: rgba(240, 240, 240, 0.5);
+}
+
+.mathSymb {
+    color: #55AAEF;
+}
+
+.calc {
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #49BA13;
+    color: white;
+}
+
+.displayCalc {
+    text-align: right;
+    width: 292px;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
