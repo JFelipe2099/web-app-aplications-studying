@@ -10,25 +10,13 @@ buttons.forEach(btn => btn.addEventListener('click', () => {
 }));
 
 function calc(){
-    console.log(display.value);
-    if (display.value.includes('/')) {
-        const holder = display.value.split('/');
-        const result = Number(holder[0]) / Number(holder[1])
-        display.value = result;
+    let op = display.value;
+
+    if (op.includes('x')) {
+       op = op.replace('x', '*');
     }
-    if (display.value.includes('x')) {
-        const holder = display.value.split('x');
-        const result = Number(holder[0]) * Number(holder[1])
-        display.value = result;
-    }
-    if (display.value.includes('-')) {
-        const holder = display.value.split('-');
-        const result = Number(holder[0]) - Number(holder[1])
-        display.value = result;
-    }
-    if (display.value.includes('+')) {
-        const holder = display.value.split('+');
-        const result = Number(holder[0]) + Number(holder[1])
-        display.value = result;
-    }
+
+    console.log(op);
+
+    display.value = eval(op);
 }
